@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 56, 12, 0.07);
+}
+
+.container {
+    max-height: 667px;
+    max-width: 375px;
+    
+}
+
+.tshifter-logo {
+    position: absolute;
+    width: 181px;
+    height: 177px;
+    left: 97px;
+    top: 129px;
+
+}
+
+.titulo {
+    position: absolute;
+    width: 182px;
+    height: 48px;
+    left: 101px;
+    top: 330px;
+    color: #00380C;
+    font-family: 'Philosopher';    
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.login-button {
+    position: absolute;
+    width: 208px;
+    height: 40px;
+    left: 84px;
+    top: 431px;
+
+}
+
+.login-button button {
+    background: #8ECB57 70%;
+    border-radius: 12px;
+    border-style: hidden;
+    width: 208px;
+    height: 40px;
+}
+
+.login-button a {
+    font-family: 'Average';
+    font-size: 18px;
+    line-height: 21.89px;
+}
+
+.cadastre-se {
+    position: absolute;
+    width: 200px;
+    height: 13px;
+    left: 88px;
+    top: 495px;
+    font-family: 'Average';
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.cadastre-se a {
+    text-decoration: underline;
+}
