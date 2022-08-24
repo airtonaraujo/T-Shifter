@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 375px;
+    max-height: 667px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 56, 12, 0.07);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.tshifter-logo {
+    max-width: 100%;
+    max-height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.titulo {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00380C;
+    font-family: 'Philosopher';    
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.login-button button {
+    margin-top: 53px;
+    background: #8ECB57 70%;
+    border-radius: 12px;
+    border-style: none;
+    width: 208px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.login-button a {
+    text-decoration: none;
+    font-family: 'Average';
+    font-size: 18px;
+    line-height: 21.89px;
+}
+
+.login-button a:visited {
+    color: black;
+}
+
+.login-button a:link {
+    color: black;
+}
+
+.cadastre-se {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Avarage';
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.cadastre-se a {
+    text-decoration: underline;
+}
+
+.cadastre-se a:visited {
+    color: black;
+}
+
+.cadastre-se a:link {
+    color: black;
+}

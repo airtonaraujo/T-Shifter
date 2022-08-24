@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Average&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 375px;
+    max-height: 667px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.tshifter-logo {
+    max-width: 100%;
+    max-height: 100vh;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.titulo {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00380C;
+    font-family: 'Philosopher';    
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.buttons {    
+    margin-top: 29px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 14.5px;
+}
+
+.button-chip {
+    border-style: none;
+    border-radius: 12px;
+    background: #8ECB57 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding: 4px;
+    padding-left: 3px;
+    font-family: 'Average';
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.button-google {
+    border-style: none;
+    border-radius: 12px;
+    background: rgba(142, 203, 87, 0.3);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 11px;
+    padding: 4px;
+    padding-left: 3px;
+    font-family: 'Average';
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.button-facebook {
+    border-style: none;
+    border-radius: 12px;
+    background: rgba(142, 203, 87, 0.3);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 11px;
+    padding: 4px;
+    padding-left: 3px;
+    font-family: 'Average';
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.link-voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.link-voltar a:visited {
+    color: black;
+}
+
+.link-voltar a:link {
+    color: black;
+}
